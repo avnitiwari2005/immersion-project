@@ -2,39 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fashion Store</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Add CSS here -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Fashion Store</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Men</a></li>
-        <li><a href="#">Women</a></li>
-        <li><a href="#">Cart</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
-    </nav>
+    <div id="cart">🛒 Cart: <span id="cart-count">0</span></div>
   </header>
 
-  <main>
-    <section class="products">
-      <h2>Latest Collection</h2>
-      <div class="product-card">
-        <img src="shirt.jpg" alt="Shirt Image">
-        <h3>Stylish Shirt</h3>
-        <p>₹799</p>
-        <button>Add to Cart</button>
-      </div>
-      <!-- Add more products similarly -->
-    </section>
-  </main>
+  <section id="products">
+    <!-- Products will be injected by JavaScript -->
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Fashion Store. All rights reserved.</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
